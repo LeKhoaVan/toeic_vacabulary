@@ -1,0 +1,25 @@
+.footerContainer {
+    right: 0px;
+    color: white;
+    background: rgb(1, 49, 112);
+}
+
+.footerContent {
+    width: 80%;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {}
+
+.contact {}
+
+.contact ul li {
+    font-weight: 400;
+    list-style-type: none;
+}
