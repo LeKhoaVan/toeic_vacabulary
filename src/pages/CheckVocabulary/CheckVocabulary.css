@@ -1,0 +1,92 @@
+.checkPageContainer {
+    min-height: 600px;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    background: rgb(255, 255, 255);
+}
+
+.checkPageContent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 10px;
+}
+
+.listName {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+
+.defineVocabulary {
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.synonymousVocabulary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.transcriptionVocabular {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.vocabularyInput {
+    width: 40%;
+    padding: 12px 40px 12px 16px;
+    border: 2px solid #b0e0e6;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.vocabularyInput:focus {
+    border-color: #42b7ff;
+    outline: none;
+}
+
+.buttonGround {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.key {
+    padding: 20px 0px;
+}
+
+.pageNumberGroup {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageNumer {
+    padding: 10px 8px;
+    border-radius: 8px;
+    color: white;
+    background: rgb(219, 81, 1);
+}

@@ -4,7 +4,7 @@
     left: 0px;
     right: 0px;
     z-index: 999;
-    background: white;
+    background: rgba(231, 231, 231, 0.445);
     box-shadow: 0 5px 48px 0 rgba(17, 191, 214, 0.1);
 }
 

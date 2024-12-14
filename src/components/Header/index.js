@@ -26,7 +26,7 @@ export default function Header() {
         <div className="headerContainer">
             <div className="headerContent">
                 <div className="logo">
-                    <img src="logo.webp" alt="logo" />
+                    <img src="logoWebsiteLearnToeicVocabulary.png" alt="logo" />
                 </div>
 
                 <div className="headerMenu">
