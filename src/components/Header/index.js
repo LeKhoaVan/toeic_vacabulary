@@ -20,12 +20,16 @@ export default function Header() {
         };
 
         setMenu();
-    }, [location.pathname])
+    }, [location.pathname]);
+
+    const handleClickLogo = () => {
+        navigate("/")
+    }
 
     return (
         <div className="headerContainer">
             <div className="headerContent">
-                <div className="logo">
+                <div className="logo cursor-pointer" onClick={handleClickLogo}>
                     <img src="logoWebsiteLearnToeicVocabulary.png" alt="logo" />
                 </div>
 
@@ -35,7 +39,7 @@ export default function Header() {
                             <div className={selectPage === "/" ? "active" : ""} onClick={() => handleClick("/")}>Trang Chủ</div>
                         </li>
                         <li>
-                            <div className={selectPage === "/list-vocabalury" ? "active" : ""} onClick={() => handleClick("/list-vocabalury")}>Danh Sách Từ Vựng</div>
+                            <div className={["/list-vocabalury", "/check-vocabalury", "/see-all-vocabulary"].includes(selectPage) ? "active" : ""} onClick={() => handleClick("/list-vocabalury")}>Danh Sách Từ Vựng</div>
                         </li>
                         <li>
                             <div className={selectPage === "/learned-vocabalury" ? "active" : ""} onClick={() => handleClick("/learned-vocabalury")}>Từ Vựng Đã Học</div>
