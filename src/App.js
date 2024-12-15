@@ -7,6 +7,7 @@ import { DefaultLayout } from "./components/layouts/DefaultLayout";
 import LearnedVocabalury from "./pages/LearnedVocabalury";
 import CheckVocabulary from "./pages/CheckVocabulary";
 import SeeVocabulary from "./pages/SeeVocabulary";
+import LearnCardVocablury from "./pages/LearnCardVocabalury";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/learned-vocabalury" element={<LearnedVocabalury />} />
         <Route path="/check-vocabalury" element={<CheckVocabulary />} />
         <Route path="/see-all-vocabulary" element={<SeeVocabulary />} />
+        <Route path="/learn-vocabulary-card" element={<LearnCardVocablury />} />
       </Route>
     </Routes>
   );

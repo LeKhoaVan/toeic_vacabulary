@@ -39,7 +39,7 @@ export default function Header() {
                             <div className={selectPage === "/" ? "active" : ""} onClick={() => handleClick("/")}>Trang Chủ</div>
                         </li>
                         <li>
-                            <div className={["/list-vocabalury", "/check-vocabalury", "/see-all-vocabulary"].includes(selectPage) ? "active" : ""} onClick={() => handleClick("/list-vocabalury")}>Danh Sách Từ Vựng</div>
+                            <div className={["/list-vocabalury", "/check-vocabalury", "/see-all-vocabulary", "/learn-vocabulary-card"].includes(selectPage) ? "active" : ""} onClick={() => handleClick("/list-vocabalury")}>Danh Sách Từ Vựng</div>
                         </li>
                         <li>
                             <div className={selectPage === "/learned-vocabalury" ? "active" : ""} onClick={() => handleClick("/learned-vocabalury")}>Từ Vựng Đã Học</div>

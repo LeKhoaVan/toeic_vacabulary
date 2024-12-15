@@ -5,7 +5,7 @@ export default function Button({ ...prop }) {
 
     return (
         <div
-            className={`inline rounded ${bg} text-white ${color && 'text-' + color} pt-3 pb-3 pr-2 pl-2 text-sm font-medium transform hover:scale-105 ml-4 mr-4 cursor-pointer`}
+            className={`inline rounded ${bg} ${color ? 'text-' + color : "text-white"} pt-3 pb-3 pl-2 pr-2 mt-2 text-sm font-medium transform hover:scale-105 cursor-pointer`}
             onClick={handleOnClick}
         >
             {title}
